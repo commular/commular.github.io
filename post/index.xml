@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Commular</title>
+    <link>http://commular.github.io/post/</link>
+    <description>Recent content in Posts on Commular</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jun 2016 21:41:53 +0200</lastBuildDate>
+    <atom:link href="http://commular.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Why commander?</title>
+      <link>http://commular.github.io/post/why-commander/</link>
+      <pubDate>Wed, 15 Jun 2016 21:41:53 +0200</pubDate>
+      
+      <guid>http://commular.github.io/post/why-commander/</guid>
+      <description>&lt;p&gt;Creating your own command line tool is amazing and can give your the opportunity of explore a new world out of the web but
+some times you will encounter some issues on creating this command line tools because the lack of reusability of that code
+that could be reused in each and every one of your tools and also the problem on sharing that code with others so that other
+people can have the opportunity of taking advantage of my work.
+Because of all that &lt;strong&gt;Commular&lt;/strong&gt; was designed and developed to to implement a pluggable system of easy development
+without having to invent anything; it&amp;rsquo;s based on &lt;a href=&#34;https://github.com/tj/commander.js/&#34;&gt;commander&lt;/a&gt; new increasing productivity and code reusability.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Installation:</title>
+      <link>http://commular.github.io/post/installation/</link>
+      <pubDate>Wed, 15 Jun 2016 21:42:42 +0200</pubDate>
+      
+      <guid>http://commular.github.io/post/installation/</guid>
+      <description>
+
+&lt;h3 id=&#34;dependencies&#34;&gt;Dependencies:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;node &amp;gt;= 5.0.0&lt;/li&gt;
+&lt;li&gt;npm &amp;gt;= 3.0.0&lt;/li&gt;
+&lt;li&gt;commander &amp;gt;= 2.9.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;npm install commular --save
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How it works?</title>
+      <link>http://commular.github.io/post/how-it-works/</link>
+      <pubDate>Wed, 15 Jun 2016 21:45:55 +0200</pubDate>
+      
+      <guid>http://commular.github.io/post/how-it-works/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Commular&lt;/strong&gt; has been developed on top of:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tj/commander.js/&#34;&gt;commander&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/npm/npm&#34;&gt;npm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Commular&lt;/strong&gt; only requires from you to install all those modules that will compose your command line tool
+using npm then &lt;strong&gt;Commular&lt;/strong&gt; will read all those modules and create a single tool with all the commands on it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Commular&lt;/strong&gt; uses two different ways to decide what modules it will gonna use:
+1. Reads the property &amp;ldquo;modules-prefixes&amp;rdquo; from package.json.
+    a. It can be:
+        i. String
+        ii. Array
+2. If &amp;ldquo;modules-prefixes&amp;rdquo; doesn&amp;rsquo;t exist it will read the property &amp;ldquo;name&amp;rdquo; from package.json.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Commular has been designed to be very easy to extend and with the &amp;ldquo;modules-prefixes&amp;rdquo; feature you can add your
+own modules and also reuse third party modules but for the sake of the community we enforce you to use those created
+by the community or even better we want you to create your own packages so that others can enjoy your work.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This method allows you to create your own modules but also reuse third party modules in your command line tool.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module development:</title>
+      <link>http://commular.github.io/post/module-development/</link>
+      <pubDate>Wed, 15 Jun 2016 21:47:00 +0200</pubDate>
+      
+      <guid>http://commular.github.io/post/module-development/</guid>
+      <description>&lt;p&gt;Create a module that can be used in &lt;strong&gt;Commander&lt;/strong&gt; is as easy as following the next steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create a module that should accomplish the following naming convention:
+a. &lt;code&gt;MMMMM-XXXX&lt;/code&gt; where the &lt;code&gt;MMMMM&lt;/code&gt; is the prefix of the module and &lt;code&gt;XXX&lt;/code&gt; is the feature that will be added to your command line.
+&amp;gt; &amp;ldquo;commular&amp;rdquo; is the main prefix for those modules created by the community.&lt;/li&gt;
+&lt;li&gt;Create your main Javascript file with the following pattern:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;exports.command = function(program) {
+  // example code - start -
+  program
+    .command(&#39;setup [env]&#39;)
+    .description(&#39;run setup commands for all envs&#39;)
+    .option(&amp;quot;-s, --setup_mode [mode]&amp;quot;, &amp;quot;Which setup mode to use&amp;quot;)
+    .action(function(env, options){
+      var mode = options.setup_mode || &amp;quot;normal&amp;quot;;
+      env = env || &#39;all&#39;;
+      console.log(&#39;setup for %s env(s) with %s mode&#39;, env, mode);
+    });
+  // example code - end -
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Install this package in your tool using npm.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Commular&lt;/strong&gt; will manage it for you.&lt;/li&gt;
+&lt;li&gt;Enjoy your first modular command line tool.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modules:</title>
+      <link>http://commular.github.io/post/modules/</link>
+      <pubDate>Wed, 15 Jun 2016 21:47:47 +0200</pubDate>
+      
+      <guid>http://commular.github.io/post/modules/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tcorral/commular-test&#34;&gt;commular-test&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tcorral/commular-bb-generate&#34;&gt;commular-bb-generate&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Usage:</title>
+      <link>http://commular.github.io/post/usage/</link>
+      <pubDate>Wed, 15 Jun 2016 21:48:43 +0200</pubDate>
+      
+      <guid>http://commular.github.io/post/usage/</guid>
+      <description>&lt;p&gt;To use it in your command line you only need to:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create your project folder.&lt;/li&gt;
+&lt;li&gt;Create the package.json file.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;npm init
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Install &lt;strong&gt;Commular&lt;/strong&gt; locally.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;npm install commander --save
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create a bin folder in the root of your project folder.&lt;/li&gt;
+&lt;li&gt;Create a index.js file in the bin folder with the following code:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;#!/usr/bin/env node
+var commular = require(&#39;commular&#39;);
+commular();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Add the bin property to your package.json.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;  &amp;quot;bin&amp;quot;: &amp;quot;./bin/index.js&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To get more information I recommend to read the use cases in tests.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tests:</title>
+      <link>http://commular.github.io/post/tests/</link>
+      <pubDate>Wed, 15 Jun 2016 21:49:18 +0200</pubDate>
+      
+      <guid>http://commular.github.io/post/tests/</guid>
+      <description>&lt;p&gt;To run the tests:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;npm install
+npm test
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contributing:</title>
+      <link>http://commular.github.io/post/contributing/</link>
+      <pubDate>Wed, 15 Jun 2016 21:49:55 +0200</pubDate>
+      
+      <guid>http://commular.github.io/post/contributing/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;Fork it!&lt;/li&gt;
+&lt;li&gt;Create your feature branch: &lt;code&gt;git checkout -b my-new-feature&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Commit your changes: &lt;code&gt;git commit -am &#39;Add some feature&#39;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Check that it still works: &lt;code&gt;npm test&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Push to the branch: &lt;code&gt;git push origin my-new-feature&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Submit a pull request :D&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Changelog:</title>
+      <link>http://commular.github.io/post/changelog/</link>
+      <pubDate>Wed, 15 Jun 2016 21:50:22 +0200</pubDate>
+      
+      <guid>http://commular.github.io/post/changelog/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;0.3.6 - Tested in Windows/Linux/OSX&lt;/li&gt;
+&lt;li&gt;0.3.4 - Stable version&lt;/li&gt;
+&lt;li&gt;0.2.0 - First release.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

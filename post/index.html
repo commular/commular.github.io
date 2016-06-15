@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <base href="http://commular.github.io/">
+    <title>Posts</title>
+
+    
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="/css/landing-page.css" rel="stylesheet">
+
+    
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <style>
+    .navbar {
+    border-color: #e7e7e7;
+}
+
+.content-section-a,
+footer,
+.navbar {
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.navbar a:link,
+.navbar-default .navbar-nav>li>a {
+  color: #777;
+}
+
+.navbar a:hover,
+.navbar-default .navbar-nav>li>a:hover {
+  color: rgb(51, 51, 51);
+}
+
+.content-section-b {
+  background-color: white;
+  color: #333;
+}
+
+body {
+  color: rgb(51, 51, 51);
+}
+
+.header-container h1,
+.header-container h2,
+.header-container h3,
+.header-container h4 {
+  color: rgb(51, 51, 51);
+}
+
+  </style>
+
+</head>
+<body>
+
+<section id="intro">
+	
+	<div class="intro-header">
+
+		<div class="container header-container">
+
+			<div class="row">
+				<div class="intro-image col-md-4"></div>
+				<div class="intro-message col-md-6">
+					<h1>Commular</h1>
+					<h3>Commular is the first modular solution to create command line tools enforcing the reusability of the code.</h3>
+
+					
+					
+					
+
+					<iframe class="github-btn" src="https://ghbtns.com/github-btn.html?user=commular&repo=commular&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+					
+
+					<hr class="intro-divider">
+				</div>
+			</div>
+
+		</div>
+		
+
+	</div>
+	
+</section>
+
+<section id="services">
+
+
+ 
+    
+    <div class="content-section-a">
+    
+
+        <div class="container">
+
+            <div class="row">
+                <div>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Why commander?</h2>
+                    <p>Creating your own command line tool is amazing and can give your the opportunity of explore a new world out of the web but
+some times you will encounter some issues on creating this command line tools because the lack of reusability of that code
+that could be reused in each and every one of your tools and also the problem on sharing that code with others so that other
+people can have the opportunity of taking advantage of my work.
+Because of all that <strong>Commular</strong> was designed and developed to to implement a pluggable system of easy development
+without having to invent anything; it&rsquo;s based on <a href="https://github.com/tj/commander.js/">commander</a> new increasing productivity and code reusability.</p>
+
+                </div>
+            </div>
+
+        </div>
+        
+
+    </div>
+
+    
+    <div class="content-section-b">
+    
+
+        <div class="container">
+
+            <div class="row">
+                <div>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Installation:</h2>
+                    
+
+<h3 id="dependencies">Dependencies:</h3>
+
+<ul>
+<li>node &gt;= 5.0.0</li>
+<li>npm &gt;= 3.0.0</li>
+<li>commander &gt;= 2.9.0</li>
+</ul>
+
+<pre><code class="language-bash">npm install commular --save
+</code></pre>
+
+                </div>
+            </div>
+
+        </div>
+        
+
+    </div>
+
+    
+    <div class="content-section-a">
+    
+
+        <div class="container">
+
+            <div class="row">
+                <div>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">How it works?</h2>
+                    <p><strong>Commular</strong> has been developed on top of:</p>
+
+<ul>
+<li><a href="https://github.com/tj/commander.js/">commander</a></li>
+<li><a href="https://github.com/npm/npm">npm</a></li>
+</ul>
+
+<p><strong>Commular</strong> only requires from you to install all those modules that will compose your command line tool
+using npm then <strong>Commular</strong> will read all those modules and create a single tool with all the commands on it.</p>
+
+<p><strong>Commular</strong> uses two different ways to decide what modules it will gonna use:
+1. Reads the property &ldquo;modules-prefixes&rdquo; from package.json.
+    a. It can be:
+        i. String
+        ii. Array
+2. If &ldquo;modules-prefixes&rdquo; doesn&rsquo;t exist it will read the property &ldquo;name&rdquo; from package.json.</p>
+
+<blockquote>
+<p>Commular has been designed to be very easy to extend and with the &ldquo;modules-prefixes&rdquo; feature you can add your
+own modules and also reuse third party modules but for the sake of the community we enforce you to use those created
+by the community or even better we want you to create your own packages so that others can enjoy your work.</p>
+</blockquote>
+
+<p>This method allows you to create your own modules but also reuse third party modules in your command line tool.</p>
+
+                </div>
+            </div>
+
+        </div>
+        
+
+    </div>
+
+    
+    <div class="content-section-b">
+    
+
+        <div class="container">
+
+            <div class="row">
+                <div>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Module development:</h2>
+                    <p>Create a module that can be used in <strong>Commander</strong> is as easy as following the next steps:</p>
+
+<ol>
+<li>Create a module that should accomplish the following naming convention:
+a. <code>MMMMM-XXXX</code> where the <code>MMMMM</code> is the prefix of the module and <code>XXX</code> is the feature that will be added to your command line.
+&gt; &ldquo;commular&rdquo; is the main prefix for those modules created by the community.</li>
+<li>Create your main Javascript file with the following pattern:</li>
+</ol>
+
+<pre><code class="language-js">exports.command = function(program) {
+  // example code - start -
+  program
+    .command('setup [env]')
+    .description('run setup commands for all envs')
+    .option(&quot;-s, --setup_mode [mode]&quot;, &quot;Which setup mode to use&quot;)
+    .action(function(env, options){
+      var mode = options.setup_mode || &quot;normal&quot;;
+      env = env || 'all';
+      console.log('setup for %s env(s) with %s mode', env, mode);
+    });
+  // example code - end -
+};
+</code></pre>
+
+<ol>
+<li>Install this package in your tool using npm.</li>
+<li><strong>Commular</strong> will manage it for you.</li>
+<li>Enjoy your first modular command line tool.</li>
+</ol>
+
+                </div>
+            </div>
+
+        </div>
+        
+
+    </div>
+
+    
+    <div class="content-section-a">
+    
+
+        <div class="container">
+
+            <div class="row">
+                <div>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Modules:</h2>
+                    <ul>
+<li><a href="https://github.com/tcorral/commular-test">commular-test</a></li>
+<li><a href="https://github.com/tcorral/commular-bb-generate">commular-bb-generate</a></li>
+</ul>
+
+                </div>
+            </div>
+
+        </div>
+        
+
+    </div>
+
+    
+    <div class="content-section-b">
+    
+
+        <div class="container">
+
+            <div class="row">
+                <div>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Usage:</h2>
+                    <p>To use it in your command line you only need to:</p>
+
+<ol>
+<li>Create your project folder.</li>
+<li>Create the package.json file.</li>
+</ol>
+
+<pre><code>npm init
+</code></pre>
+
+<ol>
+<li>Install <strong>Commular</strong> locally.</li>
+</ol>
+
+<pre><code class="language-bash">npm install commander --save
+</code></pre>
+
+<ol>
+<li>Create a bin folder in the root of your project folder.</li>
+<li>Create a index.js file in the bin folder with the following code:</li>
+</ol>
+
+<pre><code class="language-js">#!/usr/bin/env node
+var commular = require('commular');
+commular();
+</code></pre>
+
+<ol>
+<li>Add the bin property to your package.json.</li>
+</ol>
+
+<pre><code>  &quot;bin&quot;: &quot;./bin/index.js&quot;
+</code></pre>
+
+<p>To get more information I recommend to read the use cases in tests.</p>
+
+                </div>
+            </div>
+
+        </div>
+        
+
+    </div>
+
+    
+    <div class="content-section-a">
+    
+
+        <div class="container">
+
+            <div class="row">
+                <div>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Tests:</h2>
+                    <p>To run the tests:</p>
+
+<pre><code class="language-bash">npm install
+npm test
+</code></pre>
+
+                </div>
+            </div>
+
+        </div>
+        
+
+    </div>
+
+    
+    <div class="content-section-b">
+    
+
+        <div class="container">
+
+            <div class="row">
+                <div>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Contributing:</h2>
+                    <ol>
+<li>Fork it!</li>
+<li>Create your feature branch: <code>git checkout -b my-new-feature</code></li>
+<li>Commit your changes: <code>git commit -am 'Add some feature'</code></li>
+<li>Check that it still works: <code>npm test</code></li>
+<li>Push to the branch: <code>git push origin my-new-feature</code></li>
+<li>Submit a pull request :D</li>
+</ol>
+
+                </div>
+            </div>
+
+        </div>
+        
+
+    </div>
+
+    
+    <div class="content-section-a">
+    
+
+        <div class="container">
+
+            <div class="row">
+                <div>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Changelog:</h2>
+                    <ul>
+<li>0.3.6 - Tested in Windows/Linux/OSX</li>
+<li>0.3.4 - Stable version</li>
+<li>0.2.0 - First release.</li>
+</ul>
+
+                </div>
+            </div>
+
+        </div>
+        
+
+    </div>
+
+
+</section>
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <p class="copyright text-muted small">Copyright &copy; Posts All Rights Reserved</p>
+            </div>
+            <div class="col-md-4">
+		Built with <a href="http://gohugo.io">Hugo</a> and the
+		<a href="https://github.com/swiftline/github-project-landing-page">Github project Page</a>
+		theme.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="/js/jquery-1.11.0.js"></script>
+
+
+<script src="/js/jquery.easing.min.js"></script>
+
+
+<script src="/js/bootstrap.min.js"></script>
+
+
+<script src="js/landing-page.js"></script>
+
+
+
+</body>
+</html>
+
