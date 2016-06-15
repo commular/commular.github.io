@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Commular</title>
-    <link>http://commular.github.io/</link>
+    <link>https://commular.github.io/</link>
     <description>Recent content on Commular</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 15 Jun 2016 21:41:53 +0200</lastBuildDate>
-    <atom:link href="http://commular.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://commular.github.io1/index.xml" rel="self" type="application/rss+xml" />
+
     <item>
       <title>Why commander?</title>
-      <link>http://commular.github.io/post/why-commander/</link>
+      <link>https://commular.github.io/post/why-commander/</link>
       <pubDate>Wed, 15 Jun 2016 21:41:53 +0200</pubDate>
-      
-      <guid>http://commular.github.io/post/why-commander/</guid>
+
+      <guid>https://commular.github.io/post/why-commander/</guid>
       <description>&lt;p&gt;Creating your own command line tool is amazing and can give your the opportunity of explore a new world out of the web but
 some times you will encounter some issues on creating this command line tools because the lack of reusability of that code
 that could be reused in each and every one of your tools and also the problem on sharing that code with others so that other
@@ -23,13 +23,13 @@ Because of all that &lt;strong&gt;Commular&lt;/strong&gt; was designed and devel
 without having to invent anything; it&amp;rsquo;s based on &lt;a href=&#34;https://github.com/tj/commander.js/&#34;&gt;commander&lt;/a&gt; new increasing productivity and code reusability.&lt;/p&gt;
 </description>
     </item>
-    
+
     <item>
       <title>Installation:</title>
-      <link>http://commular.github.io/post/installation/</link>
+      <link>https://commular.github.io/post/installation/</link>
       <pubDate>Wed, 15 Jun 2016 21:42:42 +0200</pubDate>
-      
-      <guid>http://commular.github.io/post/installation/</guid>
+
+      <guid>https://commular.github.io/post/installation/</guid>
       <description>
 
 &lt;h3 id=&#34;dependencies&#34;&gt;Dependencies:&lt;/h3&gt;
@@ -44,13 +44,13 @@ without having to invent anything; it&amp;rsquo;s based on &lt;a href=&#34;https
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
-    
+
     <item>
       <title>How it works?</title>
-      <link>http://commular.github.io/post/how-it-works/</link>
+      <link>https://commular.github.io/post/how-it-works/</link>
       <pubDate>Wed, 15 Jun 2016 21:45:55 +0200</pubDate>
-      
-      <guid>http://commular.github.io/post/how-it-works/</guid>
+
+      <guid>https://commular.github.io/post/how-it-works/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Commular&lt;/strong&gt; has been developed on top of:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -77,13 +77,13 @@ by the community or even better we want you to create your own packages so that 
 &lt;p&gt;This method allows you to create your own modules but also reuse third party modules in your command line tool.&lt;/p&gt;
 </description>
     </item>
-    
+
     <item>
       <title>Module development:</title>
-      <link>http://commular.github.io/post/module-development/</link>
+      <link>https://commular.github.io/post/module-development/</link>
       <pubDate>Wed, 15 Jun 2016 21:47:00 +0200</pubDate>
-      
-      <guid>http://commular.github.io/post/module-development/</guid>
+
+      <guid>https://commular.github.io/post/module-development/</guid>
       <description>&lt;p&gt;Create a module that can be used in &lt;strong&gt;Commander&lt;/strong&gt; is as easy as following the next steps:&lt;/p&gt;
 
 &lt;ol&gt;
@@ -115,26 +115,26 @@ a. &lt;code&gt;MMMMM-XXXX&lt;/code&gt; where the &lt;code&gt;MMMMM&lt;/code&gt; 
 &lt;/ol&gt;
 </description>
     </item>
-    
+
     <item>
       <title>Modules:</title>
-      <link>http://commular.github.io/post/modules/</link>
+      <link>https://commular.github.io1/post/modules/</link>
       <pubDate>Wed, 15 Jun 2016 21:47:47 +0200</pubDate>
-      
-      <guid>http://commular.github.io/post/modules/</guid>
+
+      <guid>https://commular.github.io1/post/modules/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/tcorral/commular-test&#34;&gt;commular-test&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/tcorral/commular-bb-generate&#34;&gt;commular-bb-generate&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
-    
+
     <item>
       <title>Usage:</title>
-      <link>http://commular.github.io/post/usage/</link>
+      <link>https://commular.github.io1/post/usage/</link>
       <pubDate>Wed, 15 Jun 2016 21:48:43 +0200</pubDate>
-      
-      <guid>http://commular.github.io/post/usage/</guid>
+
+      <guid>https://commular.github.io1/post/usage/</guid>
       <description>&lt;p&gt;To use it in your command line you only need to:&lt;/p&gt;
 
 &lt;ol&gt;
@@ -172,13 +172,13 @@ commular();
 &lt;p&gt;To get more information I recommend to read the use cases in tests.&lt;/p&gt;
 </description>
     </item>
-    
+
     <item>
       <title>Tests:</title>
-      <link>http://commular.github.io/post/tests/</link>
+      <link>https://commular.github.io1/post/tests/</link>
       <pubDate>Wed, 15 Jun 2016 21:49:18 +0200</pubDate>
-      
-      <guid>http://commular.github.io/post/tests/</guid>
+
+      <guid>https://commular.github.io1/post/tests/</guid>
       <description>&lt;p&gt;To run the tests:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;npm install
@@ -186,13 +186,13 @@ npm test
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
-    
+
     <item>
       <title>Contributing:</title>
-      <link>http://commular.github.io/post/contributing/</link>
+      <link>https://commular.github.io1/post/contributing/</link>
       <pubDate>Wed, 15 Jun 2016 21:49:55 +0200</pubDate>
-      
-      <guid>http://commular.github.io/post/contributing/</guid>
+
+      <guid>https://commular.github.io1/post/contributing/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;Fork it!&lt;/li&gt;
 &lt;li&gt;Create your feature branch: &lt;code&gt;git checkout -b my-new-feature&lt;/code&gt;&lt;/li&gt;
@@ -203,13 +203,13 @@ npm test
 &lt;/ol&gt;
 </description>
     </item>
-    
+
     <item>
       <title>Changelog:</title>
-      <link>http://commular.github.io/post/changelog/</link>
+      <link>https://commular.github.io1/post/changelog/</link>
       <pubDate>Wed, 15 Jun 2016 21:50:22 +0200</pubDate>
-      
-      <guid>http://commular.github.io/post/changelog/</guid>
+
+      <guid>https://commular.github.io1/post/changelog/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;0.3.6 - Tested in Windows/Linux/OSX&lt;/li&gt;
 &lt;li&gt;0.3.4 - Stable version&lt;/li&gt;
@@ -217,6 +217,6 @@ npm test
 &lt;/ul&gt;
 </description>
     </item>
-    
+
   </channel>
 </rss>
