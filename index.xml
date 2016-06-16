@@ -438,6 +438,7 @@ We will not accept any plugin without the required testing.&lt;/p&gt;
       
       <guid>https://commular.github.io/post/changelog/</guid>
       <description>&lt;ul&gt;
+&lt;li&gt;0.4.0 - Added support for Vorpal&lt;/li&gt;
 &lt;li&gt;0.3.6 - Tested in Windows/Linux/OSX&lt;/li&gt;
 &lt;li&gt;0.3.4 - Stable version&lt;/li&gt;
 &lt;li&gt;0.2.0 - First release.&lt;/li&gt;
