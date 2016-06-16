@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <base href="https://commular.github.io/">
+    <title>Get Started:</title>
+
+    
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="/css/landing-page.css" rel="stylesheet">
+
+    
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <style>
+    .navbar {
+    border-color: #e7e7e7;
+}
+
+.content-section-a,
+footer,
+.navbar {
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.navbar a:link,
+.navbar-default .navbar-nav>li>a {
+  color: #777;
+}
+
+.navbar a:hover,
+.navbar-default .navbar-nav>li>a:hover {
+  color: rgb(51, 51, 51);
+}
+
+.content-section-b {
+  background-color: white;
+  color: #333;
+}
+
+body {
+  color: rgb(51, 51, 51);
+}
+
+.header-container h1,
+.header-container h2,
+.header-container h3,
+.header-container h4 {
+  color: rgb(51, 51, 51);
+}
+
+  </style>
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="page-scroll navbar-brand" href="#intro">Commular</a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="page-scroll" href=https://github.com/commular/commular>Github</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href=/training>Training</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href=https://github.com/commular>Team</a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    
+</nav>
+
+
+<section id="services">
+   <div class="content-section-a">
+
+      <div class="container">
+
+        <div class="row">
+          <div>
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">Get Started:</h2>
+            
+
+<p><strong>Commular</strong> has been developed on top of:</p>
+
+<ul>
+<li><a href="https://github.com/npm/npm">npm</a></li>
+<li><a href="https://github.com/tj/commander.js/">commander</a></li>
+<li><a href="https://github.com/dthree/vorpal">vorpal</a></li>
+</ul>
+
+<blockquote>
+<p>You can use <em>commmander</em> or <em>vorpal</em> with <em>Commular</em>.</p>
+</blockquote>
+
+<h3 id="create-your-cli-tool-in-less-than-2-minutes">Create your CLI tool in less than 2 minutes:</h3>
+
+<ol>
+<li>Use git to clone <strong>Commular</strong> repo.</li>
+</ol>
+
+<pre><code class="language-bash">git clone https://github.com/commular/commular.git &lt;&lt;CLI_NAME&gt;&gt;
+</code></pre>
+
+<ol>
+<li>Edit package.json and remove all those dependencies that are not required.</li>
+<li>Use <code>npm link</code> in the root of your project to work locally.</li>
+<li>Use <code>npm install --save &lt;&lt;COMMULAR_PLUGIN_PACKAGE_NAME&gt;&gt;</code> to install plugins.</li>
+<li>Test your tool and if you are proud of the result publish it to NPM.</li>
+</ol>
+
+<h3 id="how-can-i-tell-commular-what-cli-framework-i-am-gonna-use">How can I tell <strong>Commular</strong> what CLI framework I am gonna use?</h3>
+
+<p>It can&rsquo;t be easier&hellip; just use npm to install <em>commander</em> or <em>vorpal</em> and <strong>Commular</strong> will check what module you installed.</p>
+
+<pre><code class="language-bash">npm install --save commander
+</code></pre>
+
+<pre><code class="language-bash">npm install --save vorpal
+</code></pre>
+
+<h3 id="how-i-can-add-one-or-more-plugins">How I can add one or more plugins?</h3>
+
+<p>Use npm to install all the plugins you need <strong>Commular</strong> will manage them for you.</p>
+
+<h4 id="community-plugins">Community plugins:</h4>
+
+<p>We work as other pluggable tools (Grunt, Gulp&hellip;)</p>
+
+<p>You can find all the plugins reviewed by our team in <strong>Commular</strong> <a href="https://github.com/commular">organization</a></p>
+
+<p>You can also could find third party plugins in Github, Bitbucket and NPM, to find them you only have to search for:</p>
+
+<pre><code>commular-
+</code></pre>
+
+<h3 id="that-sounds-good-but-what-if-i-want-or-need-to-create-my-own-plugins">That sounds good but what if I want or need to create my own plugins.</h3>
+
+<p>You can develop your own plugins you only need to follow some <a href="https://commular.github.io/training">simple steps</a>.</p>
+
+<p><strong>Commular</strong> as Grunt, Gulp or jQuery enforce you to use our prefix, <strong>commular</strong>, to name your plugins but we also
+understand that sometimes it&rsquo;s not possible so we also though on it and you can define what prefixes want
+<strong>Commular</strong> to manage.</p>
+
+<blockquote>
+<p>By default <strong>Commular</strong> manages those plugins that are prefixed by <strong>commular</strong> and also those that are prefixed with the same name of your CLI.</p>
+</blockquote>
+
+<h4 id="example">Example</h4>
+
+<p>Imagine that you have to create your own CLI, named <strong>biz</strong> and&hellip;</p>
+
+<ul>
+<li>You have created two plugins with your own prefix.
+
+<ul>
+<li>biz-create-component</li>
+<li>biz-transpile</li>
+</ul></li>
+<li>You need a plugin created in your same company but that was developed by R&amp;D.
+
+<ul>
+<li>rd-linter</li>
+</ul></li>
+<li>You have found one plugin hosted by us.
+
+<ul>
+<li>commular-xml-to-json</li>
+</ul></li>
+<li>You have found one plugin from a third party company.
+
+<ul>
+<li>twitter-compile-handlebars</li>
+</ul></li>
+</ul>
+
+<p><strong>That&rsquo;s what you need to do to use them all in your app is:</strong></p>
+
+<ol>
+<li>Edit package.json file and add a new property:</li>
+</ol>
+
+<pre><code>    &quot;module-prefixes&quot;: []
+</code></pre>
+
+<ol>
+<li>Add the prefix of the R&amp;D department</li>
+</ol>
+
+<pre><code>    &quot;module-prefixes&quot;: &quot;rd&quot;
+</code></pre>
+
+<ol>
+<li>Add the prefix of Twitter company</li>
+</ol>
+
+<pre><code>    &quot;module-prefixes&quot;: [ &quot;rd&quot;, &quot;twitter&quot; ]
+</code></pre>
+
+<p>To get more information we recommend you:</p>
+
+<ul>
+<li>Follow our <a href="https://commular.github.io/training">training</a>.</li>
+<li>Read the use cases in tests.
+
+<ul>
+<li><a href="https://github.com/commular/commular/blob/master/test/commular_test.js">commular tests</a></li>
+<li><a href="https://github.com/commular/commular-bb-generate/blob/master/test/commular-bb-generate_test.js">commular-bb-generate tests</a></li>
+</ul></li>
+</ul>
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <p class="copyright text-muted small">Copyright &copy; Get Started: All Rights Reserved</p>
+            </div>
+            <div class="col-md-4">
+		Built with <a href="http://gohugo.io">Hugo</a> and the
+		<a href="https://github.com/swiftline/github-project-landing-page">Github project Page</a>
+		theme.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="/js/jquery-1.11.0.js"></script>
+
+
+<script src="/js/jquery.easing.min.js"></script>
+
+
+<script src="/js/bootstrap.min.js"></script>
+
+
+<script src="js/landing-page.js"></script>
+
+
+
+</body>
+</html>
+

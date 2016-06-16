@@ -17,7 +17,7 @@
     <link href="/css/landing-page.css" rel="stylesheet">
 
     
-    <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <style>
     .navbar {
@@ -107,14 +107,13 @@ body {
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Why Commular?</h2>
-                    <p>Creating your own command line tool is amazing and can give you the opportunity of explore a new world out of the web.</p>
+                    <p>Creating your own command line tool is amazing and gives you the opportunity of explore a new world out of the web.</p>
 
-<p>But sometimes you will encounter some issues on creating this command line tools because the lack of reusability of that code
-that could be reused in each and every one of your tools</p>
+<p>Sometimes you will encounter some issues on creating those command line tools because the lack of reusability of code that could be reused in each and every one of your tools.</p>
 
-<p>Also if you are fan of open source you will also want to share your code with other people so that they can also reuse your code and take advantage of your work.</p>
+<p>If you are an open source&rsquo;s fan you will also want to share your code with other people so they can also reuse it and take advantage of your work.</p>
 
-<p>Because of all that <strong>Commular</strong> was designed and developed to implement a pluggable system of easy development without having to invent anything new because it&rsquo;s built on top of <a href="https://github.com/tj/commander.js/">commander</a>.</p>
+<p>Because of all that <strong>Commular</strong> was designed and developed to be a pluggable framework of easy development without having to invent anything new because it extends existing, and very opinionated, CLI frameworks.</p>
 
                 </div>
             </div>
@@ -126,6 +125,30 @@ that could be reused in each and every one of your tools</p>
 
     
     <div class="content-section-b">
+    
+
+        <div class="container">
+
+            <div class="row">
+                <div>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Supported CLI frameworks:</h2>
+                    <ul>
+<li><a href="https://github.com/tj/commander.js/">commander</a></li>
+<li><a href="https://github.com/dthree/vorpal">vorpal</a></li>
+</ul>
+
+                </div>
+            </div>
+
+        </div>
+        
+
+    </div>
+
+    
+    <div class="content-section-a">
     
 
         <div class="container">
@@ -157,6 +180,38 @@ that could be reused in each and every one of your tools</p>
     </div>
 
     
+    <div class="content-section-b">
+    
+
+        <div class="container">
+
+            <div class="row">
+                <div>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Quick start:</h2>
+                    <ol>
+<li>Use git to clone <strong>Commular</strong> template CLI repo.</li>
+</ol>
+
+<pre><code class="language-bash">git clone https://github.com/commular/commular-cli-template.git &lt;&lt;CLI_NAME&gt;&gt;
+</code></pre>
+
+<ol>
+<li>Use <code>npm link</code> in the root of your project to work locally.</li>
+<li>Use <code>npm install --save &lt;&lt;COMMULAR_PLUGIN_PACKAGE_NAME&gt;&gt;</code> to install plugins.</li>
+<li>Test your tool and if you are proud of the result publish it to NPM.</li>
+</ol>
+
+                </div>
+            </div>
+
+        </div>
+        
+
+    </div>
+
+    
     <div class="content-section-a">
     
 
@@ -166,31 +221,136 @@ that could be reused in each and every one of your tools</p>
                 <div>
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">How it works?</h2>
-                    <p><strong>Commular</strong> has been developed on top of:</p>
+                    <h2 class="section-heading">Get Started:</h2>
+                    
+
+<p><strong>Commular</strong> has been developed on top of:</p>
 
 <ul>
-<li><a href="https://github.com/tj/commander.js/">commander</a></li>
 <li><a href="https://github.com/npm/npm">npm</a></li>
+<li><a href="https://github.com/tj/commander.js/">commander</a></li>
+<li><a href="https://github.com/dthree/vorpal">vorpal</a></li>
 </ul>
 
-<p><strong>Commular</strong> only requires from you to install all those modules that will compose your command line tool
-using npm then <strong>Commular</strong> will read all those modules and create a single tool with all the commands on it.</p>
-
-<p><strong>Commular</strong> uses two different ways to decide what modules it will gonna use:
-1. Reads the property &ldquo;modules-prefixes&rdquo; from package.json.
-    a. It can be:
-        i. String
-        ii. Array
-2. If &ldquo;modules-prefixes&rdquo; doesn&rsquo;t exist it will read the property &ldquo;name&rdquo; from package.json.</p>
-
 <blockquote>
-<p>Commular has been designed to be very easy to extend and with the &ldquo;modules-prefixes&rdquo; feature you can add your
-own modules and also reuse third party modules but for the sake of the community we enforce you to use those created
-by the community or even better we want you to create your own packages so that others can enjoy your work.</p>
+<p>You can use <em>commmander</em> or <em>vorpal</em> with <em>Commular</em>.</p>
 </blockquote>
 
-<p>This method allows you to create your own modules but also reuse third party modules in your command line tool.</p>
+<h3 id="create-your-cli-tool-in-less-than-2-minutes">Create your CLI tool in less than 2 minutes:</h3>
+
+<ol>
+<li>Use git to clone <strong>Commular</strong> repo.</li>
+</ol>
+
+<pre><code class="language-bash">git clone https://github.com/commular/commular.git &lt;&lt;CLI_NAME&gt;&gt;
+</code></pre>
+
+<ol>
+<li>Edit package.json and remove all those dependencies that are not required.</li>
+<li>Use <code>npm link</code> in the root of your project to work locally.</li>
+<li>Use <code>npm install --save &lt;&lt;COMMULAR_PLUGIN_PACKAGE_NAME&gt;&gt;</code> to install plugins.</li>
+<li>Test your tool and if you are proud of the result publish it to NPM.</li>
+</ol>
+
+<h3 id="how-can-i-tell-commular-what-cli-framework-i-am-gonna-use">How can I tell <strong>Commular</strong> what CLI framework I am gonna use?</h3>
+
+<p>It can&rsquo;t be easier&hellip; just use npm to install <em>commander</em> or <em>vorpal</em> and <strong>Commular</strong> will check what module you installed.</p>
+
+<pre><code class="language-bash">npm install --save commander
+</code></pre>
+
+<pre><code class="language-bash">npm install --save vorpal
+</code></pre>
+
+<h3 id="how-i-can-add-one-or-more-plugins">How I can add one or more plugins?</h3>
+
+<p>Use npm to install all the plugins you need <strong>Commular</strong> will manage them for you.</p>
+
+<h4 id="community-plugins">Community plugins:</h4>
+
+<p>We work as other pluggable tools (Grunt, Gulp&hellip;)</p>
+
+<p>You can find all the plugins reviewed by our team in <strong>Commular</strong> <a href="https://github.com/commular">organization</a></p>
+
+<p>You can also could find third party plugins in Github, Bitbucket and NPM, to find them you only have to search for:</p>
+
+<pre><code>commular-
+</code></pre>
+
+<h3 id="that-sounds-good-but-what-if-i-want-or-need-to-create-my-own-plugins">That sounds good but what if I want or need to create my own plugins.</h3>
+
+<p>You can develop your own plugins you only need to follow some <a href="https://commular.github.io/training">simple steps</a>.</p>
+
+<p><strong>Commular</strong> as Grunt, Gulp or jQuery enforce you to use our prefix, <strong>commular</strong>, to name your plugins but we also
+understand that sometimes it&rsquo;s not possible so we also though on it and you can define what prefixes want
+<strong>Commular</strong> to manage.</p>
+
+<blockquote>
+<p>By default <strong>Commular</strong> manages those plugins that are prefixed by <strong>commular</strong> and also those that are prefixed with the same name of your CLI.</p>
+</blockquote>
+
+<h4 id="example">Example</h4>
+
+<p>Imagine that you have to create your own CLI, named <strong>biz</strong> and&hellip;</p>
+
+<ul>
+<li>You have created two plugins with your own prefix.
+
+<ul>
+<li>biz-create-component</li>
+<li>biz-transpile</li>
+</ul></li>
+<li>You need a plugin created in your same company but that was developed by R&amp;D.
+
+<ul>
+<li>rd-linter</li>
+</ul></li>
+<li>You have found one plugin hosted by us.
+
+<ul>
+<li>commular-xml-to-json</li>
+</ul></li>
+<li>You have found one plugin from a third party company.
+
+<ul>
+<li>twitter-compile-handlebars</li>
+</ul></li>
+</ul>
+
+<p><strong>That&rsquo;s what you need to do to use them all in your app is:</strong></p>
+
+<ol>
+<li>Edit package.json file and add a new property:</li>
+</ol>
+
+<pre><code>    &quot;module-prefixes&quot;: []
+</code></pre>
+
+<ol>
+<li>Add the prefix of the R&amp;D department</li>
+</ol>
+
+<pre><code>    &quot;module-prefixes&quot;: &quot;rd&quot;
+</code></pre>
+
+<ol>
+<li>Add the prefix of Twitter company</li>
+</ol>
+
+<pre><code>    &quot;module-prefixes&quot;: [ &quot;rd&quot;, &quot;twitter&quot; ]
+</code></pre>
+
+<p>To get more information we recommend you:</p>
+
+<ul>
+<li>Follow our <a href="https://commular.github.io/training">training</a>.</li>
+<li>Read the use cases in tests.
+
+<ul>
+<li><a href="https://github.com/commular/commular/blob/master/test/commular_test.js">commular tests</a></li>
+<li><a href="https://github.com/commular/commular-bb-generate/blob/master/test/commular-bb-generate_test.js">commular-bb-generate tests</a></li>
+</ul></li>
+</ul>
 
                 </div>
             </div>
@@ -210,35 +370,73 @@ by the community or even better we want you to create your own packages so that 
                 <div>
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Module development:</h2>
-                    <p>Create a module that can be used in <strong>Commander</strong> is as easy as following the next steps:</p>
+                    <h2 class="section-heading">How to develop my own plugins?</h2>
+                    
+
+<h3 id="develop-your-own-plugins-for-commander-is-as-easy-as-follow-the-next-steps">Develop your own plugins for <strong>Commander</strong> is as easy as follow the next steps:</h3>
 
 <ol>
-<li>Create a module that should accomplish the following naming convention:
-a. <code>MMMMM-XXXX</code> where the <code>MMMMM</code> is the prefix of the module and <code>XXX</code> is the feature that will be added to your command line.
-&gt; &ldquo;commular&rdquo; is the main prefix for those modules created by the community.</li>
-<li>Create your main Javascript file with the following pattern:</li>
+<li>Clone the plugin template repository.</li>
 </ol>
 
-<pre><code class="language-js">exports.command = function(program) {
-  // example code - start -
-  program
-    .command('setup [env]')
-    .description('run setup commands for all envs')
-    .option(&quot;-s, --setup_mode [mode]&quot;, &quot;Which setup mode to use&quot;)
-    .action(function(env, options){
-      var mode = options.setup_mode || &quot;normal&quot;;
-      env = env || 'all';
-      console.log('setup for %s env(s) with %s mode', env, mode);
-    });
-  // example code - end -
+<pre><code class="language-bash">git clone https://github.com/commular/commular-plugin-template.git [YOUR_PLUGIN_NAME]
+</code></pre>
+
+<ol>
+<li>Open <code>scripts/index.js</code> and see that there is only the following code:</li>
+</ol>
+
+<pre><code class="language-js">exports.command = function (program) {
+    /**
+     * &quot;program&quot; returns an instance of &quot;commander&quot; or &quot;vorpal&quot;.
+     * Develop your command/s in this function as usual.
+     * More information about how to do that in the website of the CLI framework
+     * you decided to use.
+    **/
 };
 </code></pre>
 
 <ol>
-<li>Install this package in your tool using npm.</li>
-<li><strong>Commular</strong> will manage it for you.</li>
-<li>Enjoy your first modular command line tool.</li>
+<li>Read and remove that comment and implement your command or commands in there.</li>
+<li>Install all the dependencies you need.</li>
+
+<li><p>Test your plugin.</p>
+
+<ul>
+<li>The template also gives you all the ecosystem to test your plugins easily but we don&rsquo;t have
+to recall you that it&rsquo;s just a template so it&rsquo;s up to you if you want to change the modules used in there.</li>
+</ul>
+
+<blockquote>
+<p>If you want us to review your <strong>commular</strong> plugin we will ask you for testing.
+We will not accept any plugin without the required testing.</p>
+</blockquote></li>
+</ol>
+
+<h3 id="good-but-what-if-you-don-t-want-or-can-not-publish-it-in-npm-github">Good, but what if you don&rsquo;t want or can not publish it in NPM, Github&hellip;</h3>
+
+<p>That&rsquo;s not a problem at all because we are using NPM to manage dependencies.</p>
+
+<h4 id="example-of-developing-using-local-plugins">Example of developing using local plugins:</h4>
+
+<p>Assumptions:
+- The tool&rsquo;s name, you are developing, is &lsquo;cli&rsquo;.
+- You are creating a &lsquo;plugins&rsquo; folder in the root of your tool.
+- The name of your plugin is &lsquo;commular-parse-xml&rsquo;</p>
+
+<ol>
+<li>Open your &lsquo;cli&rsquo; root folder</li>
+<li>Create &lsquo;plugins&rsquo; folder in the root of your &lsquo;cli&rsquo; folder</li>
+<li>Copy or move &lsquo;commular-parse-xml&rsquo; folder inside of &lsquo;plugins&rsquo;</li>
+<li>Use npm to install it locally.</li>
+</ol>
+
+<pre><code class="language-bash">npm install --save ./plugins/commular-parse-xml
+</code></pre>
+
+<ol>
+<li>Use <code>npm link</code> to work with your &lsquo;cli&rsquo; tool as if it was installed globally.</li>
+<li>Test your plugin and enjoy it, once you have it finished you can publish or share it with others.</li>
 </ol>
 
                 </div>
@@ -261,8 +459,8 @@ a. <code>MMMMM-XXXX</code> where the <code>MMMMM</code> is the prefix of the mod
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Available Commular plugins:</h2>
                     <ul>
-<li><a href="https://github.com/tcorral/commular-test">commular-test</a></li>
-<li><a href="https://github.com/tcorral/commular-bb-generate">commular-bb-generate</a></li>
+<li><a href="https://www.npmjs.com/package/commular-test">commular-test</a></li>
+<li><a href="https://www.npmjs.com/package/commular-bb-generate">commular-bb-generate</a></li>
 </ul>
 
                 </div>
@@ -283,95 +481,8 @@ a. <code>MMMMM-XXXX</code> where the <code>MMMMM</code> is the prefix of the mod
                 <div>
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Usage:</h2>
-                    <p>To use it in your command line you only need to:</p>
-
-<ol>
-<li>Create your project folder.</li>
-<li>Create the package.json file.</li>
-</ol>
-
-<pre><code>npm init
-</code></pre>
-
-<ol>
-<li>Install <strong>Commular</strong> locally.</li>
-</ol>
-
-<pre><code class="language-bash">npm install commander --save
-</code></pre>
-
-<ol>
-<li>Create a bin folder in the root of your project folder.</li>
-<li>Create a index.js file in the bin folder with the following code:</li>
-</ol>
-
-<pre><code class="language-js">#!/usr/bin/env node
-var commular = require('commular');
-commular();
-</code></pre>
-
-<ol>
-<li>Add the bin property to your package.json.</li>
-</ol>
-
-<pre><code>  &quot;bin&quot;: &quot;./bin/index.js&quot;
-</code></pre>
-
-<p>To get more information I recommend to read the use cases in tests.</p>
-
-                </div>
-            </div>
-
-        </div>
-        
-
-    </div>
-
-    
-    <div class="content-section-a">
-    
-
-        <div class="container">
-
-            <div class="row">
-                <div>
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Tests:</h2>
-                    <p>To run the tests:</p>
-
-<pre><code class="language-bash">npm install
-npm test
-</code></pre>
-
-                </div>
-            </div>
-
-        </div>
-        
-
-    </div>
-
-    
-    <div class="content-section-b">
-    
-
-        <div class="container">
-
-            <div class="row">
-                <div>
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Contributing:</h2>
-                    <ol>
-<li>Fork it!</li>
-<li>Create your feature branch: <code>git checkout -b my-new-feature</code></li>
-<li>Commit your changes: <code>git commit -am 'Add some feature'</code></li>
-<li>Check that it still works: <code>npm test</code></li>
-<li>Push to the branch: <code>git push origin my-new-feature</code></li>
-<li>Submit a pull request :D</li>
-</ol>
+                    <h2 class="section-heading">Who are using commular?</h2>
+                    <p><a href="mailto:amischol@gmail.com">Tell us about you</a></p>
 
                 </div>
             </div>
@@ -397,6 +508,35 @@ npm test
 <li>0.3.4 - Stable version</li>
 <li>0.2.0 - First release.</li>
 </ul>
+
+                </div>
+            </div>
+
+        </div>
+        
+
+    </div>
+
+    
+    <div class="content-section-b">
+    
+
+        <div class="container">
+
+            <div class="row">
+                <div>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Team</h2>
+                    <table width="100%">
+    <tbody>
+        <tr>
+            <td></td>
+            <td style="max-width:84em; text-align: center"><a href="https://twitter.com/amischol" alt="Tomas Corral"><img src="https://secure.gravatar.com/avatar/514241ddd8e205dde75de583c3c76c27?size=200" width="200" height="200"/></a></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
 
                 </div>
             </div>

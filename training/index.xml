@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trainings on Commular</title>
+    <link>https://commular.github.io/training/</link>
+    <description>Recent content in Trainings on Commular</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://commular.github.io/training/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>https://commular.github.io/training/assets/player/KeynoteDHTMLPlayer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://commular.github.io/training/assets/player/KeynoteDHTMLPlayer/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html xmlns=&#34;http://www.w3.org/1999/xhtml&#34;&gt;
+    &lt;head&gt;
+        &lt;title&gt;Keynote&lt;/title&gt;
+        &lt;link href=&#34;KeynoteDHTMLPlayer.css&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34; media=&#34;screen&#34;/&gt;
+        &lt;meta name=&#34;viewport&#34; content=&#34;initial-scale = 1.0, minimum-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width&#34; /&gt;
+        &lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;prototype.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;DebuggingSupport.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;string.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;Utilities.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;KeynoteDHTMLPlayer.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;ShowController.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;TouchController.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;DisplayManager.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;StageManager.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;AnimationManager.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;TextureManager.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;ScriptManager.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;OrientationController.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;KPFObjects.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;SlideManager.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;NavigatorController.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;SlideNumberController.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;HelpPlacardController.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;NarrationManager.js&#34;&gt;&lt;/script&gt;
+	&lt;/head&gt;
+    &lt;body id=&#34;body&#34; bgcolor=&#34;black&#34;&gt;
+        &lt;div id=&#34;background&#34; class=&#34;bigBlackSquare&#34;&gt;
+        &lt;/div&gt;
+        &lt;div id=&#34;previousButton&#34; class=&#34;PreviousButtonDisabled&#34;&gt;
+        &lt;/div&gt;
+        &lt;div id=&#34;nextButton&#34; class=&#34;nextButtonDisabled&#34;&gt;
+        &lt;/div&gt;
+        &lt;div id=&#34;slideCounter&#34;&gt;
+        &lt;/div&gt;
+        &lt;span id=&#34;helpText&#34;&gt;&lt;/span&gt;
+        &lt;div id=&#34;stageArea&#34;&gt;
+            &lt;div id=&#34;stage&#34; class=&#34;stage&#34;&gt;
+            &lt;/div&gt;
+            &lt;div id=&#34;hyperlinkPlane&#34; class=&#34;stage&#34;&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div id=&#34;slideshowNavigator&#34;&gt;
+        &lt;/div&gt;
+        &lt;div id=&#34;slideNumberControl&#34;&gt;
+        &lt;/div&gt;
+        &lt;div id=&#34;slideNumberDisplay&#34;&gt;
+        &lt;/div&gt;
+        &lt;div id=&#34;helpPlacard&#34;&gt;
+        &lt;/div&gt;
+        &lt;div id=&#34;waitingIndicator&#34;&gt;
+        	&lt;div id=&#34;waitingSpinner&#34;&gt;
+        	&lt;/div&gt;
+        &lt;/div&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://commular.github.io/training/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://commular.github.io/training/</guid>
+      <description>&lt;html&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+
+function detectBrowser()
+{
+	/*
+    var fallback = true;
+    
+    if (navigator &amp;&amp; navigator.vendor) {
+        if (navigator.vendor.search(&#34;Apple&#34;) != -1) {
+            var vers = parseInt(navigator.appVersion.replace(/^.*?AppleWebKit\/(\d+).*?$/,&#39;$1&#39;),0);
+                if (vers &gt;= 532) {
+                    fallback = false;
+                }
+        }
+    }
+    
+    var slashIndex = window.location.href.lastIndexOf(&#34;/&#34;);
+    var cropped = window.location.href.slice(0,slashIndex+1);
+    
+    if (fallback) {
+        window.location.replace( cropped + &#34;assets/fallback/index.html&#34; );
+    }
+    else {
+        window.location.replace( cropped + &#34;assets/player/KeynoteDHTMLPlayer.html&#34; );
+    }
+    */
+    var slashIndex = window.location.href.lastIndexOf(&#34;/&#34;);
+    var cropped = window.location.href.slice(0,slashIndex+1);
+    
+    window.location.replace(cropped + &#34;assets/player/KeynoteDHTMLPlayer.html&#34;);
+
+}
+
+&lt;/script&gt;
+
+&lt;body bgcolor=&#34;black&#34; onload=&#34;detectBrowser()&#34;&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

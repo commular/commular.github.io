@@ -3,52 +3,65 @@
   
   <url>
     <loc>https://commular.github.io/</loc>
-    <lastmod>2016-06-15T21:41:53+02:00</lastmod>
+    <lastmod>2016-06-16T17:20:48+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://commular.github.io/post/why-commander/</loc>
-    <lastmod>2016-06-15T21:41:53+02:00</lastmod>
+    <loc>https://commular.github.io/post/why-commular/</loc>
+    <lastmod>2016-06-16T17:20:48+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://commular.github.io/training/assets/player/KeynoteDHTMLPlayer/</loc>
+  </url>
+  
+  <url>
+    <loc>https://commular.github.io/training/</loc>
+  </url>
+  
+  <url>
+    <loc>https://commular.github.io/post/supported-cli-frameworks/</loc>
+    <lastmod>2016-06-16T17:31:07+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://commular.github.io/post/installation/</loc>
-    <lastmod>2016-06-15T21:42:42+02:00</lastmod>
+    <lastmod>2016-06-16T17:33:11+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://commular.github.io/post/how-it-works/</loc>
-    <lastmod>2016-06-15T21:45:55+02:00</lastmod>
+    <loc>https://commular.github.io/post/quick-start/</loc>
+    <lastmod>2016-06-16T19:21:47+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://commular.github.io/post/module-development/</loc>
-    <lastmod>2016-06-15T21:47:00+02:00</lastmod>
+    <loc>https://commular.github.io/post/get-started/</loc>
+    <lastmod>2016-06-16T18:40:12+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://commular.github.io/post/modules/</loc>
-    <lastmod>2016-06-15T21:47:47+02:00</lastmod>
+    <loc>https://commular.github.io/post/how-to-develop-my-own-plugins/</loc>
+    <lastmod>2016-06-16T18:43:28+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://commular.github.io/post/usage/</loc>
-    <lastmod>2016-06-15T21:48:43+02:00</lastmod>
+    <loc>https://commular.github.io/post/available-commular-plugins/</loc>
+    <lastmod>2016-06-16T19:18:39+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://commular.github.io/post/tests/</loc>
-    <lastmod>2016-06-15T21:49:18+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://commular.github.io/post/contributing/</loc>
-    <lastmod>2016-06-15T21:49:55+02:00</lastmod>
+    <loc>https://commular.github.io/post/who-are-using-commular/</loc>
+    <lastmod>2016-06-16T19:33:53+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://commular.github.io/post/changelog/</loc>
     <lastmod>2016-06-15T21:50:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://commular.github.io/post/team/</loc>
+    <lastmod>2016-06-16T19:36:10+02:00</lastmod>
   </url>
   
 </urlset>

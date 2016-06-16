@@ -6,30 +6,156 @@
     <description>Recent content on Commular</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jun 2016 21:41:53 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jun 2016 17:20:48 +0200</lastBuildDate>
     <atom:link href="https://commular.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Why Commular?</title>
-      <link>https://commular.github.io/post/why-commander/</link>
-      <pubDate>Wed, 15 Jun 2016 21:41:53 +0200</pubDate>
+      <link>https://commular.github.io/post/why-commular/</link>
+      <pubDate>Thu, 16 Jun 2016 17:20:48 +0200</pubDate>
       
-      <guid>https://commular.github.io/post/why-commander/</guid>
-      <description>&lt;p&gt;Creating your own command line tool is amazing and can give you the opportunity of explore a new world out of the web.&lt;/p&gt;
+      <guid>https://commular.github.io/post/why-commular/</guid>
+      <description>&lt;p&gt;Creating your own command line tool is amazing and gives you the opportunity of explore a new world out of the web.&lt;/p&gt;
 
-&lt;p&gt;But sometimes you will encounter some issues on creating this command line tools because the lack of reusability of that code
-that could be reused in each and every one of your tools&lt;/p&gt;
+&lt;p&gt;Sometimes you will encounter some issues on creating those command line tools because the lack of reusability of code that could be reused in each and every one of your tools.&lt;/p&gt;
 
-&lt;p&gt;Also if you are fan of open source you will also want to share your code with other people so that they can also reuse your code and take advantage of your work.&lt;/p&gt;
+&lt;p&gt;If you are an open source&amp;rsquo;s fan you will also want to share your code with other people so they can also reuse it and take advantage of your work.&lt;/p&gt;
 
-&lt;p&gt;Because of all that &lt;strong&gt;Commular&lt;/strong&gt; was designed and developed to implement a pluggable system of easy development without having to invent anything new because it&amp;rsquo;s built on top of &lt;a href=&#34;https://github.com/tj/commander.js/&#34;&gt;commander&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Because of all that &lt;strong&gt;Commular&lt;/strong&gt; was designed and developed to be a pluggable framework of easy development without having to invent anything new because it extends existing, and very opinionated, CLI frameworks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://commular.github.io/training/assets/player/KeynoteDHTMLPlayer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://commular.github.io/training/assets/player/KeynoteDHTMLPlayer/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html xmlns=&#34;http://www.w3.org/1999/xhtml&#34;&gt;
+    &lt;head&gt;
+        &lt;title&gt;Keynote&lt;/title&gt;
+        &lt;link href=&#34;KeynoteDHTMLPlayer.css&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34; media=&#34;screen&#34;/&gt;
+        &lt;meta name=&#34;viewport&#34; content=&#34;initial-scale = 1.0, minimum-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width&#34; /&gt;
+        &lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;prototype.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;DebuggingSupport.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;string.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;Utilities.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;KeynoteDHTMLPlayer.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;ShowController.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;TouchController.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;DisplayManager.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;StageManager.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;AnimationManager.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;TextureManager.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;ScriptManager.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;OrientationController.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;KPFObjects.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;SlideManager.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;NavigatorController.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;SlideNumberController.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;HelpPlacardController.js&#34;&gt;&lt;/script&gt;
+        &lt;script type=&#34;text/javascript&#34; src=&#34;NarrationManager.js&#34;&gt;&lt;/script&gt;
+	&lt;/head&gt;
+    &lt;body id=&#34;body&#34; bgcolor=&#34;black&#34;&gt;
+        &lt;div id=&#34;background&#34; class=&#34;bigBlackSquare&#34;&gt;
+        &lt;/div&gt;
+        &lt;div id=&#34;previousButton&#34; class=&#34;PreviousButtonDisabled&#34;&gt;
+        &lt;/div&gt;
+        &lt;div id=&#34;nextButton&#34; class=&#34;nextButtonDisabled&#34;&gt;
+        &lt;/div&gt;
+        &lt;div id=&#34;slideCounter&#34;&gt;
+        &lt;/div&gt;
+        &lt;span id=&#34;helpText&#34;&gt;&lt;/span&gt;
+        &lt;div id=&#34;stageArea&#34;&gt;
+            &lt;div id=&#34;stage&#34; class=&#34;stage&#34;&gt;
+            &lt;/div&gt;
+            &lt;div id=&#34;hyperlinkPlane&#34; class=&#34;stage&#34;&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div id=&#34;slideshowNavigator&#34;&gt;
+        &lt;/div&gt;
+        &lt;div id=&#34;slideNumberControl&#34;&gt;
+        &lt;/div&gt;
+        &lt;div id=&#34;slideNumberDisplay&#34;&gt;
+        &lt;/div&gt;
+        &lt;div id=&#34;helpPlacard&#34;&gt;
+        &lt;/div&gt;
+        &lt;div id=&#34;waitingIndicator&#34;&gt;
+        	&lt;div id=&#34;waitingSpinner&#34;&gt;
+        	&lt;/div&gt;
+        &lt;/div&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://commular.github.io/training/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://commular.github.io/training/</guid>
+      <description>&lt;html&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+
+function detectBrowser()
+{
+	/*
+    var fallback = true;
+    
+    if (navigator &amp;&amp; navigator.vendor) {
+        if (navigator.vendor.search(&#34;Apple&#34;) != -1) {
+            var vers = parseInt(navigator.appVersion.replace(/^.*?AppleWebKit\/(\d+).*?$/,&#39;$1&#39;),0);
+                if (vers &gt;= 532) {
+                    fallback = false;
+                }
+        }
+    }
+    
+    var slashIndex = window.location.href.lastIndexOf(&#34;/&#34;);
+    var cropped = window.location.href.slice(0,slashIndex+1);
+    
+    if (fallback) {
+        window.location.replace( cropped + &#34;assets/fallback/index.html&#34; );
+    }
+    else {
+        window.location.replace( cropped + &#34;assets/player/KeynoteDHTMLPlayer.html&#34; );
+    }
+    */
+    var slashIndex = window.location.href.lastIndexOf(&#34;/&#34;);
+    var cropped = window.location.href.slice(0,slashIndex+1);
+    
+    window.location.replace(cropped + &#34;assets/player/KeynoteDHTMLPlayer.html&#34;);
+
+}
+
+&lt;/script&gt;
+
+&lt;body bgcolor=&#34;black&#34; onload=&#34;detectBrowser()&#34;&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</description>
+    </item>
+    
+    <item>
+      <title>Supported CLI frameworks:</title>
+      <link>https://commular.github.io/post/supported-cli-frameworks/</link>
+      <pubDate>Thu, 16 Jun 2016 17:31:07 +0200</pubDate>
+      
+      <guid>https://commular.github.io/post/supported-cli-frameworks/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tj/commander.js/&#34;&gt;commander&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dthree/vorpal&#34;&gt;vorpal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Installation:</title>
       <link>https://commular.github.io/post/installation/</link>
-      <pubDate>Wed, 15 Jun 2016 21:42:42 +0200</pubDate>
+      <pubDate>Thu, 16 Jun 2016 17:33:11 +0200</pubDate>
       
       <guid>https://commular.github.io/post/installation/</guid>
       <description>
@@ -48,161 +174,260 @@ that could be reused in each and every one of your tools&lt;/p&gt;
     </item>
     
     <item>
-      <title>How it works?</title>
-      <link>https://commular.github.io/post/how-it-works/</link>
-      <pubDate>Wed, 15 Jun 2016 21:45:55 +0200</pubDate>
+      <title>Quick start:</title>
+      <link>https://commular.github.io/post/quick-start/</link>
+      <pubDate>Thu, 16 Jun 2016 19:21:47 +0200</pubDate>
       
-      <guid>https://commular.github.io/post/how-it-works/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Commular&lt;/strong&gt; has been developed on top of:&lt;/p&gt;
+      <guid>https://commular.github.io/post/quick-start/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;Use git to clone &lt;strong&gt;Commular&lt;/strong&gt; template CLI repo.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/tj/commander.js/&#34;&gt;commander&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/npm/npm&#34;&gt;npm&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone https://github.com/commular/commular-cli-template.git &amp;lt;&amp;lt;CLI_NAME&amp;gt;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;strong&gt;Commular&lt;/strong&gt; only requires from you to install all those modules that will compose your command line tool
-using npm then &lt;strong&gt;Commular&lt;/strong&gt; will read all those modules and create a single tool with all the commands on it.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Commular&lt;/strong&gt; uses two different ways to decide what modules it will gonna use:
-1. Reads the property &amp;ldquo;modules-prefixes&amp;rdquo; from package.json.
-    a. It can be:
-        i. String
-        ii. Array
-2. If &amp;ldquo;modules-prefixes&amp;rdquo; doesn&amp;rsquo;t exist it will read the property &amp;ldquo;name&amp;rdquo; from package.json.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Commular has been designed to be very easy to extend and with the &amp;ldquo;modules-prefixes&amp;rdquo; feature you can add your
-own modules and also reuse third party modules but for the sake of the community we enforce you to use those created
-by the community or even better we want you to create your own packages so that others can enjoy your work.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This method allows you to create your own modules but also reuse third party modules in your command line tool.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Use &lt;code&gt;npm link&lt;/code&gt; in the root of your project to work locally.&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;npm install --save &amp;lt;&amp;lt;COMMULAR_PLUGIN_PACKAGE_NAME&amp;gt;&amp;gt;&lt;/code&gt; to install plugins.&lt;/li&gt;
+&lt;li&gt;Test your tool and if you are proud of the result publish it to NPM.&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
     <item>
-      <title>Module development:</title>
-      <link>https://commular.github.io/post/module-development/</link>
-      <pubDate>Wed, 15 Jun 2016 21:47:00 +0200</pubDate>
+      <title>Get Started:</title>
+      <link>https://commular.github.io/post/get-started/</link>
+      <pubDate>Thu, 16 Jun 2016 18:40:12 +0200</pubDate>
       
-      <guid>https://commular.github.io/post/module-development/</guid>
-      <description>&lt;p&gt;Create a module that can be used in &lt;strong&gt;Commander&lt;/strong&gt; is as easy as following the next steps:&lt;/p&gt;
+      <guid>https://commular.github.io/post/get-started/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Commular&lt;/strong&gt; has been developed on top of:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/npm/npm&#34;&gt;npm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tj/commander.js/&#34;&gt;commander&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dthree/vorpal&#34;&gt;vorpal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;You can use &lt;em&gt;commmander&lt;/em&gt; or &lt;em&gt;vorpal&lt;/em&gt; with &lt;em&gt;Commular&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;create-your-cli-tool-in-less-than-2-minutes&#34;&gt;Create your CLI tool in less than 2 minutes:&lt;/h3&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Create a module that should accomplish the following naming convention:
-a. &lt;code&gt;MMMMM-XXXX&lt;/code&gt; where the &lt;code&gt;MMMMM&lt;/code&gt; is the prefix of the module and &lt;code&gt;XXX&lt;/code&gt; is the feature that will be added to your command line.
-&amp;gt; &amp;ldquo;commular&amp;rdquo; is the main prefix for those modules created by the community.&lt;/li&gt;
-&lt;li&gt;Create your main Javascript file with the following pattern:&lt;/li&gt;
+&lt;li&gt;Use git to clone &lt;strong&gt;Commular&lt;/strong&gt; repo.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;exports.command = function(program) {
-  // example code - start -
-  program
-    .command(&#39;setup [env]&#39;)
-    .description(&#39;run setup commands for all envs&#39;)
-    .option(&amp;quot;-s, --setup_mode [mode]&amp;quot;, &amp;quot;Which setup mode to use&amp;quot;)
-    .action(function(env, options){
-      var mode = options.setup_mode || &amp;quot;normal&amp;quot;;
-      env = env || &#39;all&#39;;
-      console.log(&#39;setup for %s env(s) with %s mode&#39;, env, mode);
-    });
-  // example code - end -
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone https://github.com/commular/commular.git &amp;lt;&amp;lt;CLI_NAME&amp;gt;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Edit package.json and remove all those dependencies that are not required.&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;npm link&lt;/code&gt; in the root of your project to work locally.&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;npm install --save &amp;lt;&amp;lt;COMMULAR_PLUGIN_PACKAGE_NAME&amp;gt;&amp;gt;&lt;/code&gt; to install plugins.&lt;/li&gt;
+&lt;li&gt;Test your tool and if you are proud of the result publish it to NPM.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;how-can-i-tell-commular-what-cli-framework-i-am-gonna-use&#34;&gt;How can I tell &lt;strong&gt;Commular&lt;/strong&gt; what CLI framework I am gonna use?&lt;/h3&gt;
+
+&lt;p&gt;It can&amp;rsquo;t be easier&amp;hellip; just use npm to install &lt;em&gt;commander&lt;/em&gt; or &lt;em&gt;vorpal&lt;/em&gt; and &lt;strong&gt;Commular&lt;/strong&gt; will check what module you installed.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;npm install --save commander
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;npm install --save vorpal
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;how-i-can-add-one-or-more-plugins&#34;&gt;How I can add one or more plugins?&lt;/h3&gt;
+
+&lt;p&gt;Use npm to install all the plugins you need &lt;strong&gt;Commular&lt;/strong&gt; will manage them for you.&lt;/p&gt;
+
+&lt;h4 id=&#34;community-plugins&#34;&gt;Community plugins:&lt;/h4&gt;
+
+&lt;p&gt;We work as other pluggable tools (Grunt, Gulp&amp;hellip;)&lt;/p&gt;
+
+&lt;p&gt;You can find all the plugins reviewed by our team in &lt;strong&gt;Commular&lt;/strong&gt; &lt;a href=&#34;https://github.com/commular&#34;&gt;organization&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can also could find third party plugins in Github, Bitbucket and NPM, to find them you only have to search for:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;commular-
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;that-sounds-good-but-what-if-i-want-or-need-to-create-my-own-plugins&#34;&gt;That sounds good but what if I want or need to create my own plugins.&lt;/h3&gt;
+
+&lt;p&gt;You can develop your own plugins you only need to follow some &lt;a href=&#34;https://commular.github.io/training&#34;&gt;simple steps&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Commular&lt;/strong&gt; as Grunt, Gulp or jQuery enforce you to use our prefix, &lt;strong&gt;commular&lt;/strong&gt;, to name your plugins but we also
+understand that sometimes it&amp;rsquo;s not possible so we also though on it and you can define what prefixes want
+&lt;strong&gt;Commular&lt;/strong&gt; to manage.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;By default &lt;strong&gt;Commular&lt;/strong&gt; manages those plugins that are prefixed by &lt;strong&gt;commular&lt;/strong&gt; and also those that are prefixed with the same name of your CLI.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;
+
+&lt;p&gt;Imagine that you have to create your own CLI, named &lt;strong&gt;biz&lt;/strong&gt; and&amp;hellip;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You have created two plugins with your own prefix.
+
+&lt;ul&gt;
+&lt;li&gt;biz-create-component&lt;/li&gt;
+&lt;li&gt;biz-transpile&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;You need a plugin created in your same company but that was developed by R&amp;amp;D.
+
+&lt;ul&gt;
+&lt;li&gt;rd-linter&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;You have found one plugin hosted by us.
+
+&lt;ul&gt;
+&lt;li&gt;commular-xml-to-json&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;You have found one plugin from a third party company.
+
+&lt;ul&gt;
+&lt;li&gt;twitter-compile-handlebars&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;That&amp;rsquo;s what you need to do to use them all in your app is:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Edit package.json file and add a new property:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;    &amp;quot;module-prefixes&amp;quot;: []
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Add the prefix of the R&amp;amp;D department&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;    &amp;quot;module-prefixes&amp;quot;: &amp;quot;rd&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Add the prefix of Twitter company&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;    &amp;quot;module-prefixes&amp;quot;: [ &amp;quot;rd&amp;quot;, &amp;quot;twitter&amp;quot; ]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To get more information we recommend you:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Follow our &lt;a href=&#34;https://commular.github.io/training&#34;&gt;training&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Read the use cases in tests.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/commular/commular/blob/master/test/commular_test.js&#34;&gt;commular tests&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/commular/commular-bb-generate/blob/master/test/commular-bb-generate_test.js&#34;&gt;commular-bb-generate tests&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to develop my own plugins?</title>
+      <link>https://commular.github.io/post/how-to-develop-my-own-plugins/</link>
+      <pubDate>Thu, 16 Jun 2016 18:43:28 +0200</pubDate>
+      
+      <guid>https://commular.github.io/post/how-to-develop-my-own-plugins/</guid>
+      <description>
+
+&lt;h3 id=&#34;develop-your-own-plugins-for-commander-is-as-easy-as-follow-the-next-steps&#34;&gt;Develop your own plugins for &lt;strong&gt;Commander&lt;/strong&gt; is as easy as follow the next steps:&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Clone the plugin template repository.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone https://github.com/commular/commular-plugin-template.git [YOUR_PLUGIN_NAME]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Open &lt;code&gt;scripts/index.js&lt;/code&gt; and see that there is only the following code:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;exports.command = function (program) {
+    /**
+     * &amp;quot;program&amp;quot; returns an instance of &amp;quot;commander&amp;quot; or &amp;quot;vorpal&amp;quot;.
+     * Develop your command/s in this function as usual.
+     * More information about how to do that in the website of the CLI framework
+     * you decided to use.
+    **/
 };
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Install this package in your tool using npm.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Commular&lt;/strong&gt; will manage it for you.&lt;/li&gt;
-&lt;li&gt;Enjoy your first modular command line tool.&lt;/li&gt;
+&lt;li&gt;Read and remove that comment and implement your command or commands in there.&lt;/li&gt;
+&lt;li&gt;Install all the dependencies you need.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Test your plugin.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The template also gives you all the ecosystem to test your plugins easily but we don&amp;rsquo;t have
+to recall you that it&amp;rsquo;s just a template so it&amp;rsquo;s up to you if you want to change the modules used in there.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;If you want us to review your &lt;strong&gt;commular&lt;/strong&gt; plugin we will ask you for testing.
+We will not accept any plugin without the required testing.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;good-but-what-if-you-don-t-want-or-can-not-publish-it-in-npm-github&#34;&gt;Good, but what if you don&amp;rsquo;t want or can not publish it in NPM, Github&amp;hellip;&lt;/h3&gt;
+
+&lt;p&gt;That&amp;rsquo;s not a problem at all because we are using NPM to manage dependencies.&lt;/p&gt;
+
+&lt;h4 id=&#34;example-of-developing-using-local-plugins&#34;&gt;Example of developing using local plugins:&lt;/h4&gt;
+
+&lt;p&gt;Assumptions:
+- The tool&amp;rsquo;s name, you are developing, is &amp;lsquo;cli&amp;rsquo;.
+- You are creating a &amp;lsquo;plugins&amp;rsquo; folder in the root of your tool.
+- The name of your plugin is &amp;lsquo;commular-parse-xml&amp;rsquo;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Open your &amp;lsquo;cli&amp;rsquo; root folder&lt;/li&gt;
+&lt;li&gt;Create &amp;lsquo;plugins&amp;rsquo; folder in the root of your &amp;lsquo;cli&amp;rsquo; folder&lt;/li&gt;
+&lt;li&gt;Copy or move &amp;lsquo;commular-parse-xml&amp;rsquo; folder inside of &amp;lsquo;plugins&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;Use npm to install it locally.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;npm install --save ./plugins/commular-parse-xml
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Use &lt;code&gt;npm link&lt;/code&gt; to work with your &amp;lsquo;cli&amp;rsquo; tool as if it was installed globally.&lt;/li&gt;
+&lt;li&gt;Test your plugin and enjoy it, once you have it finished you can publish or share it with others.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
     
     <item>
       <title>Available Commular plugins:</title>
-      <link>https://commular.github.io/post/modules/</link>
-      <pubDate>Wed, 15 Jun 2016 21:47:47 +0200</pubDate>
+      <link>https://commular.github.io/post/available-commular-plugins/</link>
+      <pubDate>Thu, 16 Jun 2016 19:18:39 +0200</pubDate>
       
-      <guid>https://commular.github.io/post/modules/</guid>
+      <guid>https://commular.github.io/post/available-commular-plugins/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/tcorral/commular-test&#34;&gt;commular-test&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/tcorral/commular-bb-generate&#34;&gt;commular-bb-generate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.npmjs.com/package/commular-test&#34;&gt;commular-test&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.npmjs.com/package/commular-bb-generate&#34;&gt;commular-bb-generate&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>Usage:</title>
-      <link>https://commular.github.io/post/usage/</link>
-      <pubDate>Wed, 15 Jun 2016 21:48:43 +0200</pubDate>
+      <title>Who are using commular?</title>
+      <link>https://commular.github.io/post/who-are-using-commular/</link>
+      <pubDate>Thu, 16 Jun 2016 19:33:53 +0200</pubDate>
       
-      <guid>https://commular.github.io/post/usage/</guid>
-      <description>&lt;p&gt;To use it in your command line you only need to:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Create your project folder.&lt;/li&gt;
-&lt;li&gt;Create the package.json file.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;pre&gt;&lt;code&gt;npm init
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Install &lt;strong&gt;Commular&lt;/strong&gt; locally.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;npm install commander --save
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Create a bin folder in the root of your project folder.&lt;/li&gt;
-&lt;li&gt;Create a index.js file in the bin folder with the following code:&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;#!/usr/bin/env node
-var commular = require(&#39;commular&#39;);
-commular();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Add the bin property to your package.json.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;pre&gt;&lt;code&gt;  &amp;quot;bin&amp;quot;: &amp;quot;./bin/index.js&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;To get more information I recommend to read the use cases in tests.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Tests:</title>
-      <link>https://commular.github.io/post/tests/</link>
-      <pubDate>Wed, 15 Jun 2016 21:49:18 +0200</pubDate>
-      
-      <guid>https://commular.github.io/post/tests/</guid>
-      <description>&lt;p&gt;To run the tests:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;npm install
-npm test
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Contributing:</title>
-      <link>https://commular.github.io/post/contributing/</link>
-      <pubDate>Wed, 15 Jun 2016 21:49:55 +0200</pubDate>
-      
-      <guid>https://commular.github.io/post/contributing/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;Fork it!&lt;/li&gt;
-&lt;li&gt;Create your feature branch: &lt;code&gt;git checkout -b my-new-feature&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Commit your changes: &lt;code&gt;git commit -am &#39;Add some feature&#39;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Check that it still works: &lt;code&gt;npm test&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Push to the branch: &lt;code&gt;git push origin my-new-feature&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Submit a pull request :D&lt;/li&gt;
-&lt;/ol&gt;
+      <guid>https://commular.github.io/post/who-are-using-commular/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;mailto:amischol@gmail.com&#34;&gt;Tell us about you&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -217,6 +442,24 @@ npm test
 &lt;li&gt;0.3.4 - Stable version&lt;/li&gt;
 &lt;li&gt;0.2.0 - First release.&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Team</title>
+      <link>https://commular.github.io/post/team/</link>
+      <pubDate>Thu, 16 Jun 2016 19:36:10 +0200</pubDate>
+      
+      <guid>https://commular.github.io/post/team/</guid>
+      <description>&lt;table width=&#34;100%&#34;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td style=&#34;max-width:84em; text-align: center&#34;&gt;&lt;a href=&#34;https://twitter.com/amischol&#34; alt=&#34;Tomas Corral&#34;&gt;&lt;img src=&#34;https://secure.gravatar.com/avatar/514241ddd8e205dde75de583c3c76c27?size=200&#34; width=&#34;200&#34; height=&#34;200&#34;/&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
 </description>
     </item>
     

@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <base href="https://commular.github.io/">
-    <title>Changelog:</title>
+    <title>How to develop my own plugins?</title>
 
     
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -104,12 +104,74 @@ body {
           <div>
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
-            <h2 class="section-heading">Changelog:</h2>
-            <ul>
-<li>0.3.6 - Tested in Windows/Linux/OSX</li>
-<li>0.3.4 - Stable version</li>
-<li>0.2.0 - First release.</li>
+            <h2 class="section-heading">How to develop my own plugins?</h2>
+            
+
+<h3 id="develop-your-own-plugins-for-commander-is-as-easy-as-follow-the-next-steps">Develop your own plugins for <strong>Commander</strong> is as easy as follow the next steps:</h3>
+
+<ol>
+<li>Clone the plugin template repository.</li>
+</ol>
+
+<pre><code class="language-bash">git clone https://github.com/commular/commular-plugin-template.git [YOUR_PLUGIN_NAME]
+</code></pre>
+
+<ol>
+<li>Open <code>scripts/index.js</code> and see that there is only the following code:</li>
+</ol>
+
+<pre><code class="language-js">exports.command = function (program) {
+    /**
+     * &quot;program&quot; returns an instance of &quot;commander&quot; or &quot;vorpal&quot;.
+     * Develop your command/s in this function as usual.
+     * More information about how to do that in the website of the CLI framework
+     * you decided to use.
+    **/
+};
+</code></pre>
+
+<ol>
+<li>Read and remove that comment and implement your command or commands in there.</li>
+<li>Install all the dependencies you need.</li>
+
+<li><p>Test your plugin.</p>
+
+<ul>
+<li>The template also gives you all the ecosystem to test your plugins easily but we don&rsquo;t have
+to recall you that it&rsquo;s just a template so it&rsquo;s up to you if you want to change the modules used in there.</li>
 </ul>
+
+<blockquote>
+<p>If you want us to review your <strong>commular</strong> plugin we will ask you for testing.
+We will not accept any plugin without the required testing.</p>
+</blockquote></li>
+</ol>
+
+<h3 id="good-but-what-if-you-don-t-want-or-can-not-publish-it-in-npm-github">Good, but what if you don&rsquo;t want or can not publish it in NPM, Github&hellip;</h3>
+
+<p>That&rsquo;s not a problem at all because we are using NPM to manage dependencies.</p>
+
+<h4 id="example-of-developing-using-local-plugins">Example of developing using local plugins:</h4>
+
+<p>Assumptions:
+- The tool&rsquo;s name, you are developing, is &lsquo;cli&rsquo;.
+- You are creating a &lsquo;plugins&rsquo; folder in the root of your tool.
+- The name of your plugin is &lsquo;commular-parse-xml&rsquo;</p>
+
+<ol>
+<li>Open your &lsquo;cli&rsquo; root folder</li>
+<li>Create &lsquo;plugins&rsquo; folder in the root of your &lsquo;cli&rsquo; folder</li>
+<li>Copy or move &lsquo;commular-parse-xml&rsquo; folder inside of &lsquo;plugins&rsquo;</li>
+<li>Use npm to install it locally.</li>
+</ol>
+
+<pre><code class="language-bash">npm install --save ./plugins/commular-parse-xml
+</code></pre>
+
+<ol>
+<li>Use <code>npm link</code> to work with your &lsquo;cli&rsquo; tool as if it was installed globally.</li>
+<li>Test your plugin and enjoy it, once you have it finished you can publish or share it with others.</li>
+</ol>
 
         </div>
     </div>
@@ -123,7 +185,7 @@ body {
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <p class="copyright text-muted small">Copyright &copy; Changelog: All Rights Reserved</p>
+                <p class="copyright text-muted small">Copyright &copy; How to develop my own plugins? All Rights Reserved</p>
             </div>
             <div class="col-md-4">
 		Built with <a href="http://gohugo.io">Hugo</a> and the
