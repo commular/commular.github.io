@@ -17,13 +17,12 @@
       <guid>https://commular.github.io/post/why-commander/</guid>
       <description>&lt;p&gt;Creating your own command line tool is amazing and can give you the opportunity of explore a new world out of the web.&lt;/p&gt;
 
-&lt;p&gt;But some times you will encounter some issues on creating this command line tools because the lack of reusability of that code
+&lt;p&gt;But sometimes you will encounter some issues on creating this command line tools because the lack of reusability of that code
 that could be reused in each and every one of your tools&lt;/p&gt;
 
 &lt;p&gt;Also if you are fan of open source you will also want to share your code with other people so that they can also reuse your code and take advantage of your work.&lt;/p&gt;
 
-&lt;p&gt;Because of all that &lt;strong&gt;Commular&lt;/strong&gt; was designed and developed to to implement a pluggable system of easy development
-without having to invent anything; it&amp;rsquo;s based on &lt;a href=&#34;https://github.com/tj/commander.js/&#34;&gt;commander&lt;/a&gt; new increasing productivity and code reusability.&lt;/p&gt;
+&lt;p&gt;Because of all that &lt;strong&gt;Commular&lt;/strong&gt; was designed and developed to implement a pluggable system of easy development without having to invent anything new because it&amp;rsquo;s built on top of &lt;a href=&#34;https://github.com/tj/commander.js/&#34;&gt;commander&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -120,7 +119,7 @@ a. &lt;code&gt;MMMMM-XXXX&lt;/code&gt; where the &lt;code&gt;MMMMM&lt;/code&gt; 
     </item>
     
     <item>
-      <title>Modules:</title>
+      <title>Available Commular plugins:</title>
       <link>https://commular.github.io/post/modules/</link>
       <pubDate>Wed, 15 Jun 2016 21:47:47 +0200</pubDate>
       
