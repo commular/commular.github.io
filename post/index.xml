@@ -187,21 +187,21 @@ understand that sometimes it&amp;rsquo;s not possible so we also though on it an
 &lt;li&gt;Edit package.json file and add a new property:&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;pre&gt;&lt;code&gt;    &amp;quot;module-prefixes&amp;quot;: []
+&lt;pre&gt;&lt;code&gt;    &amp;quot;commular-plugin-prefixes&amp;quot;: []
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Add the prefix of the R&amp;amp;D department&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;pre&gt;&lt;code&gt;    &amp;quot;module-prefixes&amp;quot;: &amp;quot;rd&amp;quot;
+&lt;pre&gt;&lt;code&gt;    &amp;quot;commular-plugin-prefixes&amp;quot;: &amp;quot;rd&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Add the prefix of Twitter company&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;pre&gt;&lt;code&gt;    &amp;quot;module-prefixes&amp;quot;: [ &amp;quot;rd&amp;quot;, &amp;quot;twitter&amp;quot; ]
+&lt;pre&gt;&lt;code&gt;    &amp;quot;commular-plugin-prefixes&amp;quot;: [ &amp;quot;rd&amp;quot;, &amp;quot;twitter&amp;quot; ]
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;To get more information we recommend you:&lt;/p&gt;
